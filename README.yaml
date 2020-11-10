@@ -1,0 +1,37 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+license: "MIT"
+github_repo: outsideopen/terraform-aws-ec2-image-transfer
+name: terraform-aws-ec2-image-transfer
+tags:
+  - aws
+  - terraform
+  - terraform-modules
+  - vmimport
+badges:
+  - name: "Latest Release"
+    image: "https://img.shields.io/github/release/outsideopen/terraform-aws-ec2-image-transfer.svg"
+    url: "https://github.com/outsideopen/terraform-aws-ec2-image-transfer/releases/latest"
+
+# Short description of this project
+description: |-
+  Terraform Module to set up `vmimport` role and S3 bucket for import/export of EC2 images.
+# How to use this project
+usage: |-
+  ```hcl
+  module  {
+    source    = "git::https://github.com/outsideopen/terraform-aws-ec2-image-transfer.git?ref=master"
+  }
+  ```
+include:
+  - "docs/targets.md"
+  - "docs/terraform.md"
+
+# Contributors to this project
+contributors:
+  - name: "David Lundgren"
+    github: "dlundgren"
