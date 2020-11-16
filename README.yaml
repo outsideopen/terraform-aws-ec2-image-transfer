@@ -13,6 +13,9 @@ tags:
   - terraform-modules
   - vmimport
 badges:
+  - name: "License: MIT"
+    image: "https://img.shields.io/badge/License-MIT-yellow.svg"
+    url: LICENSE
   - name: "Latest Release"
     image: "https://img.shields.io/github/release/outsideopen/terraform-aws-ec2-image-transfer.svg"
     url: "https://github.com/outsideopen/terraform-aws-ec2-image-transfer/releases/latest"
@@ -31,7 +34,3 @@ include:
   - "docs/targets.md"
   - "docs/terraform.md"
 
-# Contributors to this project
-contributors:
-  - name: "David Lundgren"
-    github: "dlundgren"
